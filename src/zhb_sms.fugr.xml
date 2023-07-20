@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>SMS Elotherm</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZHB_SMSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHB_SMS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHB_SMS</FUNCNAME>
+     <SHORT_TEXT>User-Exit 009 - Own additional checks</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+   <LONGTEXTS_ZHB_SMS>
+    <item>
+     <DOKIL>
+      <ID>FU</ID>
+      <OBJECT>ZHB_SMS</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>T</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00005</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZHB_SMS</TDNAME>
+      <TDID>FU</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dieser User-Exit wird nach den im EIC definierten Zusatzprüfungen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aufgerufen und erlaubt die Implementierung beliebiger eigener</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zusatzprüfungen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Kundeneigenen Zusatzprüfungen können das Ausführen einer Aktion durch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Erzeugen einer Ausnahme (RAISE EXCEPTION) verhindern.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FURTHER_SOURCES_OF_INF&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS_ZHB_SMS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
